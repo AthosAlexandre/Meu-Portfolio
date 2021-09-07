@@ -1,4 +1,4 @@
-package Java.bingoApp;
+
 import java.util.Random;
 
 public class Cartela {
