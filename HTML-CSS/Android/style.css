@@ -1,0 +1,121 @@
+        @charset "UTF-8";
+        @font-face {
+            font-family: 'Android';
+            src: url('fontes/idroid.otf') format('opentype');
+            font-style: normal;
+            font-weight: normal;
+        }
+        
+        body {
+            background-color: aquamarine;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        header {
+            background-color: rgb(4, 194, 115);
+            margin: -23px -8px -26px -8px;
+        }
+        
+        header>h1 {
+            text-align: center;
+            font-size: 35px;
+            font-family: arial, helvetica, sans-serif;
+            color: white;
+        }
+        
+        header>h2 {
+            text-align: center;
+            font-size: 15px;
+            font-family: arial, helvetica, sans-serif;
+            color: white;
+        }
+        
+        main {
+            background-color: white;
+            height: auto;
+            width: 900px;
+            margin-left: 220px;
+            box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.486);
+        }
+        
+        main>h1 {
+            color: rgb(2, 80, 15);
+            font-family: 'Android';
+        }
+        
+        main>h2 {
+            color: rgb(16, 114, 3);
+            background-color: rgba(0, 255, 255, 0.466);
+            margin-left: 10px;
+            margin-right: 10px;
+            font-family: 'Android';
+        }
+        
+        main>p {
+            text-align: justify;
+            text-indent: 30px;
+        }
+        
+        main>img.grupo-android {
+            margin-left: 50px;
+        }
+        
+        main>img.senhora-irene {
+            margin-left: 50px;
+        }
+        
+        main>img.android-homem {
+            margin-left: 299px;
+        }
+        
+        footer {
+            background-color: rgb(7, 124, 75);
+            text-align: center;
+            color: white;
+        }
+        
+        nav>a {
+            text-decoration: none;
+            color: white;
+            margin-left: 18px;
+        }
+        
+        nav a:hover {
+            background-color: rgba(0, 0, 0, 0.205);
+            color: chartreuse;
+        }
+        
+        div {
+            background-color: rgb(2, 117, 2);
+        }
+        
+        div>iframe {
+            margin-top: 50px;
+            margin-bottom: 50px;
+            margin-left: 50px;
+        }
+        
+        div#aprender-mais {
+            background-color: rgba(97, 219, 138, 0.295);
+            margin: 0px 30px 0px 30px;
+            border-radius: 20px;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.493);
+        }
+        
+        div#aprender-mais>p {
+            text-align: justify;
+            text-indent: 25px;
+            margin-left: 10px;
+        }
+        
+        div#aprender-mais>h3 {
+            background-color: rgb(7, 201, 7);
+            padding: 15px;
+            color: white;
+            border-radius: 20px;
+        }
+        
+        ul#direito {
+            margin: -200px 0px 0px 500px;
+        }
