@@ -1,0 +1,46 @@
+{
+    "habilidades":[
+        {
+            "id": 1,
+            "linguagem": "HTML",
+            "url":"https://logospng.org/download/html-5/logo-html-5-256.png",
+            "descricao": "É uma linguagem de marcação utilizada na construção de páginas na Web.",
+            "exp":"Eu tenho 1 ano de experiência com essa tecnologia"
+        },
+        {
+            "id": 2,
+            "linguagem": "CSS",
+            "url":"https://logospng.org/download/css-3/logo-css-3-2048.png",
+            "descricao": "É um mecanismo para adicionar estilo a um documento web.",
+            "exp":"Eu tenho 1 ano de experiência com essa tecnologia"
+        },
+        {
+            "id": 3,
+            "linguagem": "JavaScript",
+            "url":"https://icon-library.com/images/javascript-icon-png/javascript-icon-png-23.jpg",
+            "descricao": "JavaScript é uma linguagem de programação interpretada estruturada, Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.",
+            "exp":"Eu tenho 1 ano de experiência com essa tecnologia"
+        },
+        {
+            "id": 4,
+            "linguagem": "VueJS",
+            "url":"https://br.vuejs.org/images/logo.svg",
+            "descricao": "Vue.js é um framework JavaScript de código-aberto, focado no desenvolvimento de interfaces de usuário e aplicativos de página única.",
+            "exp":"Eu tenho 1 ano de experiência com essa tecnologia"
+        },
+        {
+            "id": 5,
+            "linguagem": "GitHub",
+            "url":"https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png",
+            "descricao": "GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. #RedeSocialDosProgramadores.",
+            "exp":"Eu tenho 1 ano de experiência com essa tecnologia"
+        },
+        {
+            "id": 6,
+            "linguagem": "Java",
+            "url":"https://cdn-icons-png.flaticon.com/512/226/226777.png",
+            "descricao": "Java é uma linguagem de programação baseado na orientação por objeto desenvolvida na década de 90, baseada na linguagem C.",
+            "exp":"Eu tenho 3 anos de experiência com essa tecnologia"
+        }
+    ]
+}
