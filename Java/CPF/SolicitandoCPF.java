@@ -12,13 +12,13 @@ public class SolicitandoCPF {
         cpf = leia.next();
 
         if (cpf.charAt(3) == '.') {
-            if (validar.validaCPFcomString(cpf)) {
+            if (validar.isValidacaoCpfComPonto(cpf)) {
                 System.out.println("É um CPF valido");
             } else {
                 System.out.println("CPF inexistente");
             }
         } else {
-            if (validar.validate(cpf)) {
+            if (validar.isValidacaoCpfSemPonto(cpf)) {
                 System.out.println("É um CPF valido");
             } else {
                 System.out.println("CPF inexistente");
