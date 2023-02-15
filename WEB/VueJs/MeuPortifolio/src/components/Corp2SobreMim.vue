@@ -41,14 +41,17 @@
 }
 
  section.sessao-sobre-mim article.sobre-mim-texto-container h2{
-    font-size: 40px;
+    font-size:4.5vh;
     color: var(--laranja);
     font-weight: 300;
+    padding: 2%;
 }
 
 
  section.sessao-sobre-mim article.sobre-mim-texto-container p{
     color:white;
+    font-size:2vh;
+    padding: 2%;
 }
 
 </style>

@@ -6,19 +6,19 @@
                     <img src="@/assets/imagens/nosh.jpg" alt="">
                     <h3>Nosh</h3>
                     <p>Esse projeto foi para testar minhas habilidades de front-end, uma copia do site de comida Nosh.</p>
-                    <a href="@/assets/Pratica-2- Nosh/index.html" target="_blank"><button class="bnt">Visualizar</button></a>
+                    <button class="bnt">Em andamento</button>
                 </article><!--projeto-nosh-->
                 <article class="projeto-nosh">
                     <img src="@/assets/projeto-5/imagens/bg.jpg" alt="">
                     <h3>RM VEICULOS</h3>
                     <p>Esse projeto foi para testar minhas habilidades de front-end, um site de atividade do curso da danki-code.</p>
-                    <a href="projeto-5/index.html" target="_blank"><button class="bnt">Visualizar</button></a>
+                    <a href="https://resplendent-crisp-ba74d9.netlify.app/index.html" target="_blank"><button class="bnt">Visualizar</button></a>
                 </article><!--projeto-nosh-->
                 <article class="projeto-nosh">
-                    <img src="@/assets/projeto-3/imagens/img-danki.png" alt="">
-                    <h3>danki-code</h3>
+                    <img src="@/assets/imagens/projeto_odonto.jpeg" alt="">
+                    <h3>Odontologia</h3>
                     <p>Esse projeto foi para testar minhas habilidades de front-end, um site de atividade do curso da danki-code.</p>
-                    <a href="projeto-3/index.html" target="_blank"><button class="bnt">Visualizar</button></a>
+                    <a href="https://celebrated-marshmallow-90c661.netlify.app/" target="_blank"><button class="bnt">Visualizar</button></a>
                 </article><!--projeto-nosh-->
                 
             </div><!--container-projetos-->
@@ -52,7 +52,7 @@
  section.sessao-projetos h2{
     text-align: center;
     margin-bottom: 20px;
-    font-size: 40px;
+    font-size:4.5vh;
     color: var(--laranja);
     font-weight: 300;
 }
@@ -63,6 +63,7 @@
 
  section.sessao-projetos p{
     color:white;
+    font-size:2vh;
 }
 
  section.sessao-projetos article.projeto-nosh img{

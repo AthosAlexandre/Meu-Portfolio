@@ -14,7 +14,7 @@
             
             <div :class="{active: isActive}" id="navegacao">
                 <a href="#home">Home</a>
-                <a href="./Corp2SobreMim.vue">Sobre mim</a>
+                <a href="#sobre-mim">Sobre mim</a>
                 <a href="#projetos">Projetos</a>
                 <a href="#habilidades">Habilidades</a>
                 <a href="#experiencia">Experiência</a>

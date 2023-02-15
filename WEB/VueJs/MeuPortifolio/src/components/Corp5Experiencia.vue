@@ -28,7 +28,7 @@ padding-top: 120px;
 .sessao-experiencia h2{
     text-align: center;
     margin-bottom: 50px;
-    font-size: 40px;
+    font-size:4.5vh;
     color: var(--laranja);
     font-weight: 300;  
     
@@ -45,7 +45,7 @@ padding-top: 120px;
 
 .container-experiencia p{
     color:white;
-    font-size: 25px;
+    font-size:2.5vh;
     
 }
 

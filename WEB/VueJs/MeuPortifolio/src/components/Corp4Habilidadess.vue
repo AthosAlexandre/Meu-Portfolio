@@ -70,14 +70,14 @@ export default {
 
 .sessao-habilidades p{
     color:white;
-    font-size:23px;
+    font-size:2.5vh;
 
 }
 
 .sessao-habilidades h2{
     text-align: center;
     margin-bottom: 50px;
-    font-size: 40px;
+    font-size:4.5vh;
     color: var(--laranja);
     font-weight: 300;   
 }
@@ -101,6 +101,7 @@ export default {
 .container-habilidades img{
     max-width: 150px;
     width:100% ;
+    
 }
 
 .container-habilidades img#VueJS{
@@ -148,6 +149,8 @@ export default {
         margin: 0 auto;
     }
 
+    
+
     .container-texto{
         width: 100%;
         order: 2;
@@ -156,5 +159,13 @@ export default {
         margin: 0 auto;
         padding: 0 2%;
     }
+}
+
+@media screen and (max-width: 498px){
+    .container-habilidades img#VueJS{
+        height: 90px;
+        margin-top:10px ;
+        padding-top:10px ;
+    }   
 }
 </style>
