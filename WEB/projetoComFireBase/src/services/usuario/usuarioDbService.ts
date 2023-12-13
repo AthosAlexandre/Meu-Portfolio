@@ -4,6 +4,12 @@ import { setPersistence, browserSessionPersistence, signInWithEmailAndPassword, 
 import { collection, getDocs, doc, getDoc, addDoc, setDoc } from "firebase/firestore";
 import { ListaDeTarefasInterface } from "../../interfaces/listaDeTarefasInterface.ts";
 class UsuarioDbService {
+    uidUsually:string;
+    meuBanco: string;
+    constructor() {
+        this.uidUsually = '';
+        this.meuBanco = localStorage.getItem('meuBanco') || '';
+    }
 
     async fazerLogin(email: string, senha: string): Promise<boolean> {
         try {
@@ -11,7 +17,6 @@ class UsuarioDbService {
             const retorno = await this.isUsuarioExistente((await result).user.uid);
             if (retorno === true) {
                 console.log("Usuário existe");
-
                 return true;
             } else {
                 console.log("Usuário não existe")
@@ -38,13 +43,18 @@ class UsuarioDbService {
                 // Handle Errors here.
                 const errorCode = error.code;
                 const errorMessage = error.message;
+                console.log(errorCode + " - " + errorMessage);
             });
     }
-
+    
     async isUsuarioExistente(uid: any): Promise<any> {
+        
         const docRef = doc(db, "usuarios", uid);
         const docSnap = await getDoc(docRef);
         const result = docSnap.exists();
+        this.meuBanco = docSnap.data().meuBanco;
+        console.log("meu banco é "+ this.meuBanco);
+        localStorage.setItem('meuBanco', this.meuBanco);
         return result;
     }
 
@@ -91,6 +101,8 @@ class UsuarioDbService {
             const unsubscribe = onAuthStateChanged(auth, (user: User | null) => {
                 unsubscribe(); // Remove the listener to prevent memory leaks
                 if (user) {
+                    this.uidUsually;
+                    this.isUsuarioExistente(user.uid);
                     resolve(user.email || '');
                 } else {
                     resolve('');
@@ -105,13 +117,14 @@ class UsuarioDbService {
             console.log('Usuário deslogado');
         }).catch((error) => {
             // An error happened.
-            console.log('Erro ao deslogar usuário');
+            console.log('Erro ao deslogar usuário '+ error);
         });
     }
 
     async listaDeTarefas() {
         const tarefas: Array<ListaDeTarefasInterface> = [];
-        const querySnapshot = await getDocs(collection(db, "tarefas"));
+        const querySnapshot = await getDocs(collection(db, `${this.meuBanco.valueOf()}`));
+        
         let numeroLista = 0;
         querySnapshot.forEach((doc) => {
             const tarefaData = doc.data() as ListaDeTarefasInterface;
@@ -120,6 +133,24 @@ class UsuarioDbService {
         });
         return tarefas;
     }
+
+    async cadastrarLista(valores: Array<ListaDeTarefasInterface>) {
+        console.log("valor do id é "+ this.uidUsually);
+        
+        try {
+           console.log("Foi enviado")
+            const docRef = await addDoc(collection(db, `${this.meuBanco.valueOf()}`), {
+                tarefa: valores[0].tarefa,
+                datetime: valores[0].datetime,
+                usuario: this.uidUsually
+            });
+            console.log("Document written with ID: ", docRef.id);
+          } catch (e) {
+            console.error("Error adding document: ", e);
+          }
+    }  
+
+    
 
     interfaceDaListaDeTarefas(data: ListaDeTarefasInterface, id: string, numeroDaLista: number): ListaDeTarefasInterface {
         return {

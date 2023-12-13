@@ -1,0 +1,1 @@
+alter table games add img longtext not null;
