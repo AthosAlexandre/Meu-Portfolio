@@ -22,7 +22,7 @@ function cadastroTarefa() {
     console.log(tarefas);
     console.log(data);
     let tarefa:Array<ListaDeTarefasInterface> = [];
-   tarefa.push({
+    tarefa.push({
     datetime: new Date(data).getUTCDate() + '/'+'0' + (1+parseInt(new Date(data).getMonth())) + '/' + new Date(data).getUTCFullYear(),
     tarefa: tarefas,
    });
