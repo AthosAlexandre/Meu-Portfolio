@@ -1,8 +1,10 @@
 <template>
   <InicioSobreMim />
+  <MinhasSkills />
 </template>
 <script>
 import InicioSobreMim from '@/components/inicio-sobre-mim/InicioSobreMim.vue'
+import MinhasSkills from '@/components/minhas-skills/MinhasSkills.vue'
  export default {
    name: 'Home',
    
@@ -12,7 +14,8 @@ import InicioSobreMim from '@/components/inicio-sobre-mim/InicioSobreMim.vue'
      }
    },
    components: {
-    InicioSobreMim
+    InicioSobreMim,
+    MinhasSkills
     },
  }
 </script>
