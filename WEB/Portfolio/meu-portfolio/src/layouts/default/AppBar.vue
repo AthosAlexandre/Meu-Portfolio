@@ -16,7 +16,7 @@
 
     </v-navigation-drawer>
 
-    <v-app-bar v-model="appBar">
+    <v-app-bar>
       <v-app-bar-nav-icon @click.stop="abrirDrawer = !abrirDrawer"></v-app-bar-nav-icon>
       <v-toolbar-title>Meu Portfolio</v-toolbar-title>
     </v-app-bar>
@@ -29,13 +29,11 @@ export default {
   data() {
     return {
       abrirDrawer: true,
-      appBar:false
     }
   },
   created() {
     if (window.innerWidth < 1280) {
         this.abrirDrawer = false;
-        this.appBar = true;
       }
   },
 }
