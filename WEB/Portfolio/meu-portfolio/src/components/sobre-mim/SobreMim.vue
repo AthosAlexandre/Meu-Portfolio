@@ -2,7 +2,7 @@
     <div class="bg-grey-darken-2">
         <v-container>
             <h2 class="font-weight-regular" style="text-align: center;">Sobre Mim</h2>
-            <div class="container-sobre-mim d-flex align-center flex-sm-column">
+            <div class="container-sobre-mim d-flex align-center flex-sm-row flex-column">
                 <div class="texto">
                     <p>Olá, meu nome é <span class="font-weight-bold">Athos</span>, tenho 24 anos e sou estudante de <span class="font-weight-bold">Sistemas de Informação</span> na <span class="font-weight-bold">UFMS</span> de Coxim-MS.</p>
                     <p>Atualmente estou no 7º semestre do curso e estou em busca de uma oportunidade de estágio para colocar em prática os conhecimentos adquiridos durante o curso.</p>
