@@ -1,39 +1,41 @@
 <template>
-    <v-container>
-        <h2 class="font-weight-regular" style="text-align: center;">Minhas Skills</h2>
-        <div class="container-skills">
-            
-            <v-row>
-                <v-col
-                    v-for="skill in MinhasSkills"
-                    :key="skill.id"
-                    cols="12"
-                    sm="6"
-                    md="4"
-                    lg="3"
-                    xl="2"
-                >
-                    <v-card
-                        class="mx-auto"
-                        max-width="344"
-                        outlined
+    <div class="bg-grey-darken-3">
+        <v-container>
+            <h2 class="font-weight-regular" style="text-align: center;">Minhas Skills</h2>
+            <div class="container-skills">
+        
+                <v-row>
+                    <v-col
+                        v-for="skill in MinhasSkills"
+                        :key="skill.id"
+                        cols="12"
+                        sm="6"
+                        md="4"
+                        lg="3"
+                        xl="2"
                     >
-                        <v-list-item three-line>
-                            <v-list-item-avatar
-                                tile
-                                size="80"
-                                color="grey"
-                                class="d-flex align-center flex-column justify-center"
-                            >
-                                <v-icon size="36">{{skill.icon}}</v-icon>
-                                <div class="overline ">{{skill.nome}}</div>
-                            </v-list-item-avatar>
-                        </v-list-item>
-                    </v-card>
-                </v-col>
-            </v-row>
-        </div>
-    </v-container>
+                        <v-card
+                            class="mx-auto"
+                            max-width="344"
+                            outlined
+                        >
+                            <v-list-item three-line>
+                                <v-list-item-avatar
+                                    tile
+                                    size="80"
+                                    color="grey"
+                                    class="d-flex align-center flex-column justify-center"
+                                >
+                                    <v-icon size="36">{{skill.icon}}</v-icon>
+                                    <div class="overline ">{{skill.nome}}</div>
+                                </v-list-item-avatar>
+                            </v-list-item>
+                        </v-card>
+                    </v-col>
+                </v-row>
+            </div>
+        </v-container>
+    </div>
 </template>
 
 <script >

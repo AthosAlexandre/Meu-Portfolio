@@ -1,10 +1,12 @@
 <template>
   <InicioSobreMim />
   <MinhasSkills />
+  <SobreMim />
 </template>
 <script>
 import InicioSobreMim from '@/components/inicio-sobre-mim/InicioSobreMim.vue'
 import MinhasSkills from '@/components/minhas-skills/MinhasSkills.vue'
+import SobreMim from '@/components/sobre-mim/SobreMim.vue';
  export default {
    name: 'Home',
    
@@ -15,7 +17,8 @@ import MinhasSkills from '@/components/minhas-skills/MinhasSkills.vue'
    },
    components: {
     InicioSobreMim,
-    MinhasSkills
-    },
+    MinhasSkills,
+    SobreMim
+},
  }
 </script>
