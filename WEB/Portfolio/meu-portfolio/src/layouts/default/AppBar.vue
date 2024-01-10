@@ -16,7 +16,7 @@
 
     </v-navigation-drawer>
 
-    <v-app-bar>
+    <v-app-bar class="bg-grey-darken-4">
       <v-app-bar-nav-icon @click.stop="abrirDrawer = !abrirDrawer"></v-app-bar-nav-icon>
       <v-toolbar-title>Meu Portfolio</v-toolbar-title>
     </v-app-bar>
