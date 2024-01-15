@@ -27,10 +27,10 @@
 
                                 <template v-slot:default="{ isActive }">
                                     <v-card title="Quer ver a onde?">
-                                        <v-card-actions class="d-flex justify-space-evenly">
-                                           <a :href="projeto.repositorio" target="_blank"> <v-btn append-icon="mdi-github" style="width: 150px;" text="Repositório" color="black" variant="elevated"></v-btn></a>
+                                        <v-card-actions class="d-flex justify-center">
+                                            <v-btn @click="mudarDePagina(projeto.repositorio)" append-icon="mdi-github" style="width: 150px;" text="Repositório" color="black" variant="elevated"></v-btn>
 
-                                           <a :href="projeto.site" target="_blank"> <v-btn style="width: 150px;" text="Site" color="black" variant="elevated" append-icon="mdi-page-next"></v-btn></a>
+                                           <v-btn @click="mudarDePagina(projeto.site)" style="width: 150px;" text="Site" color="black" variant="elevated" append-icon="mdi-page-next"></v-btn>
                                         </v-card-actions>
 
                                         <v-card-actions>
@@ -105,6 +105,11 @@ export default {
     components: {
 
     },
+    methods: {
+        mudarDePagina(link) {
+            window.open(link, '_blank');
+        }
+    }
 }
 </script>
 

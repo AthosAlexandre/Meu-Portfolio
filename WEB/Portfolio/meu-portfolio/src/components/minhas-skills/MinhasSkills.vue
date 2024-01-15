@@ -6,7 +6,7 @@
             <v-slide-group v-model="model" class="pa-4" selected-class="bg-success" show-arrows>
                 <v-slide-group-item v-for="skill in MinhasSkills" :key="skill.id" v-slot="{ isSelected, toggle, selectedClass }">
 
-                    <v-card :class="['ma-4','d-flex','justify-center', selectedClass]" width="100" height="100" outlined>
+                    <v-card :class="['ma-4','d-flex','justify-center', selectedClass]" width="120" height="100" outlined>
                         <v-list-item three-line>
                             <v-list-item-avatar tile size="80" color="grey"
                                 class="d-flex align-center flex-column justify-center">
