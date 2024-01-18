@@ -13,6 +13,7 @@
                     <v-img class="rounded-xl elevation-12"
                         src="https://scontent-gru2-1.xx.fbcdn.net/v/t39.30808-6/321912572_643925607477632_6527658625987747428_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=3635dc&_nc_ohc=N0P1_8FZA-4AX_mWnz2&_nc_ht=scontent-gru2-1.xx&oh=00_AfByvBFONTGkCq_vopc_br59UyTCNnBNWNEvpT-eOHUrTw&oe=65A393D3"
                         width="300"
+                        alt="Foto do Athos"
                     >
                     </v-img>
                 </div>
