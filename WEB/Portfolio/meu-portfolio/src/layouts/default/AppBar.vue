@@ -8,6 +8,7 @@
           title="Athos Alexandre" nav />
         <v-divider></v-divider>
         <v-list-item prepend-icon="mdi-home" title="Home" to="/"></v-list-item>
+        <v-list-item prepend-icon="mdi-account" title="Teste" to="/RotaTeste"></v-list-item>
         <v-list-item prepend-icon="mdi-github" title="Repositorio"
           href="https://github.com/AthosAlexandre/Meu-Portfolio/tree/main" target="_blank"></v-list-item>
         <v-list-item prepend-icon="mdi-linkedin" title="Linkedin"

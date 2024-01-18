@@ -1,6 +1,7 @@
 <template>
-    <div>
+    <div class="tamanho">
         <h1>Teste rota!!!</h1>
+        
     </div>
 </template>
 
@@ -17,5 +18,11 @@ export default {
 </script>
 
 <style scoped>
-
+    .tamanho{
+        height: 100vh;
+        width: 100%;
+        
+        padding: 20px;
+        
+    }
 </style>
