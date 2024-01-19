@@ -4,6 +4,7 @@
             <h2 class="text-center font-weight-regular sobre-a-imagem text-h4">Olá sou o</h2>
             <h2 class="text-center font-weight-regular sobre-a-imagem text-h4">Athos Alexandre</h2>
             <p class="font-weight-regular sobre-a-imagem">Sou um desenvolvedor Front-End e programador Java, que gosta de aprender novas tecnologias e de criar coisas novas.</p>
+            <v-btn prepend-icon="mdi-file-download">BAIXAR CURRICULO</v-btn>
             
         </section>
         <section class="imagem">

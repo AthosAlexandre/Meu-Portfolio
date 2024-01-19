@@ -8,6 +8,7 @@
                     <p>Atualmente estou no 7º semestre do curso e estou em busca de uma oportunidade de estágio para colocar em prática os conhecimentos adquiridos durante o curso.</p>
                     <p>Meu objetivo é me tornar um <span class="font-weight-bold">Desenvolvedor Full Stack</span> e para isso estou estudando as tecnologias mais utilizadas no mercado.</p>
                     <p>Além disso, estou sempre em busca de novos conhecimentos e me aperfeiçoando cada vez mais.</p>
+                    
                 </div>
                 <div class="imagem">
                     <v-img class="rounded-xl elevation-12"
