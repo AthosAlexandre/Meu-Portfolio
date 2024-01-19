@@ -1,6 +1,6 @@
 <template>
     <v-container>
-        <h2 class="font-weight-regular" style="text-align: center;">Meus Projetos</h2>
+        <h2 class="font-weight-regular pb-4" style="text-align: center;">Meus Projetos</h2>
         <div class="container-cards-meus-projetos">
             <v-row>
                 <v-col v-for="(projeto, index) in projetos" :key="index" cols="12" sm="4">

@@ -1,6 +1,6 @@
 <template>
-    <div class="bg-grey-darken-3">
-        
+    <div class="bg-grey-darken-3 pa-6">
+        <h2 class="text-center font-weight-regular text-h5 pb-4">Minhas Habilidades</h2>
 
         <v-sheet class="mx-auto bg-grey-darken-3" elevation="8" max-width="800">
             <v-slide-group v-model="model" class="pa-4" selected-class="bg-success" show-arrows>
