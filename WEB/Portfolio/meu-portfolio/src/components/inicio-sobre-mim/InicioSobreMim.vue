@@ -4,7 +4,12 @@
             <h2 class="text-center font-weight-regular sobre-a-imagem text-h4">Olá sou o</h2>
             <h2 class="text-center font-weight-regular sobre-a-imagem text-h4">Athos Alexandre</h2>
             <p class="font-weight-regular sobre-a-imagem">Sou um desenvolvedor Front-End e programador Java, que gosta de aprender novas tecnologias e de criar coisas novas.</p>
-            <v-btn prepend-icon="mdi-file-download">BAIXAR CURRICULO</v-btn>
+
+            <div class="pt-6 botao-dowload">
+                <a  href="../../../Athos_Alexandre_Curriculo.pdf" target="_blank" download>
+                    <v-btn class="bg-red-accent-4" prepend-icon="mdi-file-download">BAIXAR CURRICULO</v-btn>
+                </a>
+            </div>
             
         </section>
         <section class="imagem">
@@ -27,6 +32,9 @@ export default {
         return {
 
         }
+    },
+    methods: {
+        
     },
     components: {
 
