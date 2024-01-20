@@ -1,24 +1,23 @@
 <template>
-    <div class="bg-grey-darken-3 pa-6">
-        <h2 class="text-center font-weight-regular text-h5 pb-4">Minhas Habilidades</h2>
-
-        <v-sheet class="mx-auto bg-grey-darken-3" elevation="8" max-width="800">
-            <v-slide-group v-model="model" class="pa-4" selected-class="bg-success" show-arrows>
-                <v-slide-group-item v-for="skill in MinhasSkills" :key="skill.id" v-slot="{ isSelected, toggle, selectedClass }">
-
-                    <v-card :class="['ma-4','d-flex','justify-center', selectedClass]" width="120" height="100" outlined>
-                        <v-list-item three-line>
-                            <v-list-item-avatar tile size="80" color="grey"
-                                class="d-flex align-center flex-column justify-center">
-                                <v-icon size="36">{{ skill.icon }}</v-icon>
-                                <div class="overline ">{{ skill.nome }}</div>
-                            </v-list-item-avatar>
-                        </v-list-item>
-                    </v-card>
-
-                </v-slide-group-item>
-            </v-slide-group>
-        </v-sheet>
+    <div class=" minhas-skills hidden bg-grey-darken-3 pa-6 d-flex flex-column justify-center">
+        <v-container>
+            <h2 class="text-center font-weight-regular text-h5 pb-4">Minhas Habilidades</h2>
+            <v-sheet class="mx-auto bg-grey-darken-3" elevation="8" max-width="800">
+                <v-slide-group v-model="model" class="pa-4" selected-class="bg-success" show-arrows>
+                    <v-slide-group-item v-for="skill in MinhasSkills" :key="skill.id" v-slot="{ isSelected, toggle, selectedClass }">
+                        <v-card :class="['ma-4','d-flex','justify-center', selectedClass]" width="120" height="100" outlined>
+                            <v-list-item three-line>
+                                <v-list-item-avatar tile size="80" color="grey"
+                                    class="d-flex align-center flex-column justify-center">
+                                    <v-icon size="36">{{ skill.icon }}</v-icon>
+                                    <div class="overline ">{{ skill.nome }}</div>
+                                </v-list-item-avatar>
+                            </v-list-item>
+                        </v-card>
+                    </v-slide-group-item>
+                </v-slide-group>
+            </v-sheet>
+        </v-container>
 
     </div>
 </template>
@@ -79,4 +78,8 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.minhas-skills{
+    height: 100vh;
+}
+</style>

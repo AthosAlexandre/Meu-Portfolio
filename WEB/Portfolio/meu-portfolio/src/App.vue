@@ -1,14 +1,23 @@
 <template>
   <router-view />
-  <whats/>
+  <whats />
 </template>
 
-<script setup>
+<script>
 import Whats from '@/components/botao-whatsapp/BotaoWhatsApp.vue'
+import style from '@/styles/scroll.css'
+export default {
+  name: 'App',
+  data() {
+    return {
 
-components:{
-Whats
+    }
+  },
+  components: {
+    Whats
 
+  },
+  
 }
-  //
+//
 </script>

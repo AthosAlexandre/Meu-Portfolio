@@ -1,8 +1,8 @@
 <template>
-    <div class="imagem-corpo">
+    <div class="imagem-corpo hidden">
         <section class="sobre-mim-texto">
-            <h2 class="text-center font-weight-regular sobre-a-imagem text-h4">Olá sou o</h2>
-            <h2 class="text-center font-weight-regular sobre-a-imagem text-h4">Athos Alexandre</h2>
+            <h2 class=" font-weight-regular sobre-a-imagem text-h5 ">Olá sou o Athos Alexandre</h2>
+
             <p class="font-weight-regular sobre-a-imagem">Sou um desenvolvedor Front-End e programador Java, que gosta de aprender novas tecnologias e de criar coisas novas.</p>
 
             <div class="pt-6 botao-dowload">
@@ -25,6 +25,7 @@
 </template>
 
 <script>
+
 export default {
     name: 'InicioSobreMim',
 
@@ -37,18 +38,38 @@ export default {
         
     },
     components: {
-
+        
+  
     },
 }
 </script>
 
 <style scoped>
+
+h2{
+    border-right: 4px solid ;
+    width: 21.5ch; /* quantidade de caracteres*/
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2.2s steps(21), blinking 0.5s step-end infinite alternate ;
+    
+}
+
+@keyframes typing {
+    from { width: 0 }
+    
+}
+
+@keyframes blinking {
+    50% { border-color: transparent }
+}
+
 .imagem-corpo {
     position: relative;
     background-image: url('../../assets/img/main-img.jpeg');
     background-size: cover;
     background-position: center;
-    height: 80vh;
+    height: 100vh;
     max-width: 100%;
     width: 100%;
     display: flex;
@@ -87,6 +108,25 @@ p{
     max-width: 300px;
 
 }
+
+
+.vue-typer {
+  font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+}
+
+.vue-typer .custom.char.typed {
+  color: #607D8B;
+}
+.vue-typer .custom.char.selected {
+  color: #607D8B;
+  background-color: transparent;
+  text-decoration: line-through;
+}
+
+.vue-typer .custom.caret {
+  display: none;
+}
+
 @media screen and (max-width: 700px) {
     
     .sobre-mim-texto{

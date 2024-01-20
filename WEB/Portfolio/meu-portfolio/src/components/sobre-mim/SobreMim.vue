@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-grey-darken-2">
+    <div class="sobre-mim hidden bg-grey-darken-2 d-flex align-center">
         <v-container>
             <h2 class="font-weight-regular" style="text-align: center;">Sobre Mim</h2>
             <div class="container-sobre-mim d-flex align-center flex-sm-row flex-column">
@@ -38,5 +38,7 @@ export default {
 </script>
 
 <style scoped>
-
+.sobre-mim{
+    height: 100vh;
+}
 </style>
