@@ -15,21 +15,20 @@
           </template>
          
             <a href="#imagem-corpo">
-              <v-list-item prepend-icon="mdi-home-export-outline" title="Inicio"></v-list-item>
+              <v-list-item class="sub-item" prepend-icon="mdi-home-export-outline" title="Inicio"></v-list-item>
             </a>
           
           <a href="#minhas-skills">
-            <v-list-item prepend-icon="mdi-microsoft-visual-studio-code" title="Habilidades"></v-list-item>
+            <v-list-item class="sub-item" prepend-icon="mdi-microsoft-visual-studio-code" title="Habilidades"></v-list-item>
           </a>
           <a href="#sobre-mim">
-            <v-list-item prepend-icon="mdi-account-circle" title="Sobre Mim"></v-list-item>
+            <v-list-item class="sub-item" prepend-icon="mdi-account-circle" title="Sobre Mim"></v-list-item>
           </a>
           <a href="#meus-projetos">
-            <v-list-item prepend-icon="mdi-application-brackets-outline" title="Meus Projetos"></v-list-item>
+            <v-list-item class="sub-item" prepend-icon="mdi-application-brackets-outline" title="Meus Projetos"></v-list-item>
           </a>
         </v-list-group>
 
-        <v-list-item prepend-icon="mdi-account" title="Teste" to="/RotaTeste"></v-list-item>
         <v-list-item prepend-icon="mdi-github" title="Repositorio"
           href="https://github.com/AthosAlexandre/Meu-Portfolio/tree/main" target="_blank"></v-list-item>
         <v-list-item prepend-icon="mdi-linkedin" title="Linkedin"
@@ -66,5 +65,10 @@ export default {
 a{
   text-decoration: none;
   color: inherit;
+}
+
+
+.sub-item:hover{
+  background-color: rgba(83, 83, 83, 0.147);
 }
 </style>
