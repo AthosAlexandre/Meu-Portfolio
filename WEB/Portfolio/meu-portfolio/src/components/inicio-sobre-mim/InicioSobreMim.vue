@@ -1,5 +1,5 @@
 <template>
-    <div class="imagem-corpo hidden">
+    <div class="imagem-corpo hidden" id="imagem-corpo">
         <section class="sobre-mim-texto">
             <h2 class=" font-weight-regular sobre-a-imagem text-h5 ">Olá sou o Athos Alexandre</h2>
 

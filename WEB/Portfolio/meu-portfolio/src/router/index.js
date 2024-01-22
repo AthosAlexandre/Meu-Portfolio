@@ -14,11 +14,6 @@ const routes = [
         // which is lazy-loaded when the route is visited.
         component: () => import(/* webpackChunkName: "home" */ '@/views/home/Home.vue'),
       },
-      {
-        path: '/RotaTeste',
-        name: 'RotaTeste',
-        component: () => import('@/views/rota-teste/RotaTesteView.vue'),
-      }
     ],
   },
 ]
