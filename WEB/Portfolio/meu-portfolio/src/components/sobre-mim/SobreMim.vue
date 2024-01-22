@@ -1,5 +1,5 @@
 <template>
-    <div class="sobre-mim hidden bg-grey-darken-2 d-flex align-center">
+    <div id="sobre-mim" class="sobre-mim hidden bg-grey-darken-2 d-flex align-center" >
         <v-container>
             <h2 class="font-weight-regular" style="text-align: center;">Sobre Mim</h2>
             <div class="container-sobre-mim d-flex align-center flex-sm-row flex-column">

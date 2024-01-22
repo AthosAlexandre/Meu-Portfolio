@@ -1,5 +1,5 @@
 <template>
-    <div class="meus-projetos hidden d-flex align-center">
+    <div class="meus-projetos hidden d-flex align-center" id="meus-projetos">
         <v-container>
             <h2 class="font-weight-regular pb-4" style="text-align: center;">Meus Projetos</h2>
             <div class="container-cards-meus-projetos">

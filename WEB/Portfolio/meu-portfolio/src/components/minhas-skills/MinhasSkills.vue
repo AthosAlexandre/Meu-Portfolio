@@ -1,5 +1,5 @@
 <template>
-    <div class=" minhas-skills hidden bg-grey-darken-3 pa-6 d-flex flex-column justify-center">
+    <div class=" minhas-skills hidden bg-grey-darken-3 pa-6 d-flex flex-column justify-center" id="minhas-skills">
         <v-container>
             <h2 class="text-center font-weight-regular text-h5 pb-4">Minhas Habilidades</h2>
             <v-sheet class="mx-auto bg-grey-darken-3" elevation="8" max-width="800">
