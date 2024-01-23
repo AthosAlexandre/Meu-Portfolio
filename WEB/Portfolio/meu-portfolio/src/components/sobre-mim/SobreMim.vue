@@ -1,8 +1,8 @@
 <template>
-    <div id="sobre-mim" class="sobre-mim hidden bg-grey-darken-2 d-flex align-center" >
-        <v-container>
+    <div id="sobre-mim" class="sobre-mim hidden d-flex align-center" >
+        <v-container class=" bg-grey-darken-4 w-75 rounded-xl">
             <h2 class="font-weight-regular" style="text-align: center;">Sobre Mim</h2>
-            <div class="container-sobre-mim d-flex align-center flex-sm-row flex-column">
+            <div class="container-sobre-mim d-flex justify-space-evenly align-center flex-sm-row flex-column">
                 <div class="texto">
                     <p>Olá, meu nome é <span class="font-weight-bold">Athos</span>, tenho 24 anos e sou estudante de <span class="font-weight-bold">Sistemas de Informação</span> na <span class="font-weight-bold">UFMS</span> de Coxim-MS.</p>
                     <p>Atualmente estou no 7º semestre do curso e estou em busca de uma oportunidade de estágio para colocar em prática os conhecimentos adquiridos durante o curso.</p>
@@ -40,5 +40,12 @@ export default {
 <style scoped>
 .sobre-mim{
     height: 100vh;
+    border-bottom: 1px solid #ccc;
+}
+@media screen and (max-width: 600px) {
+    .sobre-mim{
+        height: 120vh;
+    }
+    
 }
 </style>

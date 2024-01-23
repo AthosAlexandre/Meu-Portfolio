@@ -12,11 +12,11 @@
             </div>
             
         </section>
-        <section class="imagem">
+        <section class="imagem ">
             <v-img
                 width="300"
                 height="300"
-                src="https://scontent-gru1-1.xx.fbcdn.net/v/t39.30808-6/415802290_6842244712520220_2908691111436762482_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=xTekieh5TpUAX84JSyq&_nc_ht=scontent-gru1-1.xx&oh=00_AfACmnJRZeeT5gAEmJdgMyQ4Cix-XYNavuBp8Bh8V1g87Q&oe=65A2A344"
+                src="https://scontent-gru1-1.xx.fbcdn.net/v/t39.30808-6/415802290_6842244712520220_2908691111436762482_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=_42Q-x3ilHcAX9TPOj7&_nc_ht=scontent-gru1-1.xx&oh=00_AfAwKacfMTxTjS94LsRG_bvtK_Eo-PCmXEdK92G4uzapNw&oe=65B46F84"
                 class="rounded-circle"
             ></v-img>
         </section>

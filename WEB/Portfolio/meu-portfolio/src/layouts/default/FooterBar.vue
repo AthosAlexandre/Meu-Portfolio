@@ -23,10 +23,6 @@ export default {
           to: '/'
         },
         {
-          nome: 'Teste',
-          to: '/RotaTeste'
-        },
-        {
           nome: 'Repositorio',
           link: 'https://github.com/AthosAlexandre/Meu-Portfolio/tree/main'
         },
