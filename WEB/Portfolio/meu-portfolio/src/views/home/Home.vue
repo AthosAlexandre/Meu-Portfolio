@@ -32,9 +32,6 @@ methods: {
             if(entrada.isIntersecting){
               entrada.target.classList.add('show');
             }
-            else{
-              entrada.target.classList.remove('show');
-            }
         })
       });
 

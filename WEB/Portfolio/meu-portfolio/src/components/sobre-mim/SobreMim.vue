@@ -1,8 +1,8 @@
 <template>
-    <div id="sobre-mim" class="sobre-mim hidden bg-grey-darken-2 d-flex align-center" >
-        <v-container>
+    <div id="sobre-mim" class="sobre-mim hidden d-flex align-center" >
+        <v-container class=" bg-grey-darken-4 w-75 rounded-xl">
             <h2 class="font-weight-regular" style="text-align: center;">Sobre Mim</h2>
-            <div class="container-sobre-mim d-flex align-center flex-sm-row flex-column">
+            <div class="container-sobre-mim d-flex justify-space-evenly align-center flex-sm-row flex-column">
                 <div class="texto">
                     <p>Olá, meu nome é <span class="font-weight-bold">Athos</span>, tenho 24 anos e sou estudante de <span class="font-weight-bold">Sistemas de Informação</span> na <span class="font-weight-bold">UFMS</span> de Coxim-MS.</p>
                     <p>Atualmente estou no 7º semestre do curso e estou em busca de uma oportunidade de estágio para colocar em prática os conhecimentos adquiridos durante o curso.</p>
@@ -11,9 +11,9 @@
                     
                 </div>
                 <div class="imagem">
-                    <v-img class="rounded-xl elevation-12"
-                        src="https://scontent-gru2-1.xx.fbcdn.net/v/t39.30808-6/321912572_643925607477632_6527658625987747428_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=3635dc&_nc_ohc=N0P1_8FZA-4AX_mWnz2&_nc_ht=scontent-gru2-1.xx&oh=00_AfByvBFONTGkCq_vopc_br59UyTCNnBNWNEvpT-eOHUrTw&oe=65A393D3"
-                        width="300"
+                    <v-img class="rounded-xl elevation-12 tamanho"
+                        src="https://scontent-gru1-2.xx.fbcdn.net/v/t39.30808-6/363312172_6278556488889048_2821519706653054295_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=9c7eae&_nc_ohc=kU8oEF7RdqMAX8esPMb&_nc_ht=scontent-gru1-2.xx&oh=00_AfAg9C5nXHfcXHTlyg_ozQjmqZOBanseJaOTQ5hC9oOxCw&oe=65B4E2A8"
+                        
                         alt="Foto do Athos"
                     >
                     </v-img>
@@ -40,5 +40,21 @@ export default {
 <style scoped>
 .sobre-mim{
     height: 100vh;
+    border-bottom: 1px solid #ccc;
+}
+.tamanho{
+    width: 300px;
+    max-width: 100%;
+}
+@media screen and (max-width: 600px) {
+    .sobre-mim{
+        height: 120vh;
+    }
+    .tamanho{
+        margin-top: 10px;
+        width: 250px;
+        max-width: 100%;
+    }
+    
 }
 </style>
