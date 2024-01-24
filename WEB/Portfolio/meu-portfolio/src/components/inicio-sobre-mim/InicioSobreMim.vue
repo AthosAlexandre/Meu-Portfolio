@@ -6,9 +6,7 @@
             <p class="font-weight-regular sobre-a-imagem">Sou um desenvolvedor Front-End e programador Java, que gosta de aprender novas tecnologias e de criar coisas novas.</p>
 
             <div class="pt-6 botao-dowload">
-                <a  href="../../../Athos_Alexandre_Curriculo.pdf" target="_blank" download>
-                    <v-btn class="bg-red-accent-4" prepend-icon="mdi-file-download">BAIXAR CURRICULO</v-btn>
-                </a>
+                    <v-btn href="https://drive.google.com/uc?export=download&id=1cjnoUcVeWeWEoH_QahNLEsDlRgxxUfoN" class="bg-red-accent-4" prepend-icon="mdi-file-download">BAIXAR CURRICULO</v-btn>
             </div>
             
         </section>
