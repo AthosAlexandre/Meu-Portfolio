@@ -14,8 +14,9 @@
             <v-img
                 width="300"
                 height="300"
-                src="https://scontent-gru1-1.xx.fbcdn.net/v/t39.30808-6/415802290_6842244712520220_2908691111436762482_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=_42Q-x3ilHcAX9TPOj7&_nc_ht=scontent-gru1-1.xx&oh=00_AfAwKacfMTxTjS94LsRG_bvtK_Eo-PCmXEdK92G4uzapNw&oe=65B46F84"
+                src="../../assets/img/foto_athos.jpg"
                 class="rounded-circle"
+                alt="Foto do Athos"
             ></v-img>
         </section>
         

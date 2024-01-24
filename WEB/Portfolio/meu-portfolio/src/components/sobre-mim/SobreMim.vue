@@ -12,8 +12,7 @@
                 </div>
                 <div class="imagem">
                     <v-img class="rounded-xl elevation-12 tamanho"
-                        src="https://scontent-gru1-2.xx.fbcdn.net/v/t39.30808-6/363312172_6278556488889048_2821519706653054295_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=9c7eae&_nc_ohc=kU8oEF7RdqMAX8esPMb&_nc_ht=scontent-gru1-2.xx&oh=00_AfAg9C5nXHfcXHTlyg_ozQjmqZOBanseJaOTQ5hC9oOxCw&oe=65B4E2A8"
-                        
+                        src="../../assets/img/foto_athos.jpg"
                         alt="Foto do Athos"
                     >
                     </v-img>
