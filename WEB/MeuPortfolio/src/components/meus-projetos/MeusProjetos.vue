@@ -73,7 +73,7 @@ export default {
                     subtitulo: 'Em produção... mas já da para ver',
                     imagem: 'site_arquiteto_thiago.png',
                     show: false,
-                    repositorio: 'https://github.com/AthosAlexandre/Meu-Portfolio',
+                    repositorio: 'https://github.com/AthosAlexandre/Meu-Portfolio/tree/main/WEB/SiteArquiteto',
                     site: 'https://thiago-arquiteto.netlify.app'
                 },
                 {
