@@ -1,0 +1,34 @@
+.button{
+ margin-top: 10px;
+  margin-bottom: 10px;
+} 
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Espaço entre os cards */
+  margin-top: 15px; /* Espaço acima dos cards */
+}
+
+.team-card {
+  background-color: #0d1a2c; /* Cor de fundo do cartão */
+  color: #fff; /* Cor do texto */
+  border-radius: 8px; /* Bordas arredondadas */
+  padding: 20px;
+  width: 250px; /* Largura fixa para os cartões */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Sombra para efeito de profundidade */
+}
+
+.players {
+  display: flex;
+  flex-direction: column; /* Alinha os jogadores em coluna */
+}
+
+.player-card {
+  background-color: #1a83ff; /* Cor de fundo para os cartões dos jogadores */
+  color: #fff; /* Cor do texto */
+  padding: 10px; /* Espaçamento interno do cartão do jogador */
+  margin-top: 10px; /* Espaço entre os cartões dos jogadores */
+  border-radius: 4px; /* Bordas arredondadas */
+  text-align: center; /* Centraliza o texto */
+}

@@ -1,0 +1,21 @@
+
+.numbers-results {
+  display: flex;
+  flex-wrap: wrap; /* Permite que os cartões se movam para a próxima linha */
+  justify-content: center; /* Centraliza os cartões horizontalmente */
+  margin-top: 20px; /* Espaço acima dos cartões */
+  gap: 15px; /* Espaço entre os cartões */
+}
+
+.number-card {
+  background-color: #1a83ff; /* Cor de fundo dos cartões */
+  color: #fff; /* Cor do texto */
+  border-radius: 8px; /* Bordas arredondadas */
+  width: 60px; /* Largura fixa dos cartões */
+  height: 60px; /* Altura fixa dos cartões */
+  display: flex;
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: center; /* Centraliza horizontalmente */
+  font-size: 24px; /* Tamanho da fonte */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Sombra para efeito de profundidade */
+}
