@@ -1,0 +1,9 @@
+.container{
+  height: calc(100vh - 70px); /* Reduz a altura total em relação à altura da barra de navegação */
+}
+
+.title-page{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
