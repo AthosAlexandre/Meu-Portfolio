@@ -4,14 +4,25 @@
             <h2 class="font-weight-regular" style="text-align: center;">Sobre Mim</h2>
             <div class="container-sobre-mim d-flex justify-space-evenly align-center flex-md-row flex-column">
                 <div class="texto">
-                    <p>Olá, meu nome é <span class="font-weight-bold">Athos</span>, tenho 24 anos e sou estudante de <span
+                    <p>Olá, meu nome é <span class="font-weight-bold">Athos</span>, tenho 26 anos e sou estudante de <span
                             class="font-weight-bold">Sistemas de Informação</span> na <span
                             class="font-weight-bold">UFMS</span> de Coxim-MS.</p>
-                    <p>Atualmente estou no 7º semestre do curso e estou em busca de uma oportunidade de estágio para colocar
-                        em prática os conhecimentos adquiridos durante o curso.</p>
-                    <p>Meu objetivo é me tornar um <span class="font-weight-bold">Desenvolvedor Full Stack</span> e para
-                        isso estou estudando as tecnologias mais utilizadas no mercado.</p>
-                    <p>Além disso, estou sempre em busca de novos conhecimentos e me aperfeiçoando cada vez mais.</p>
+                    <p>Atualmente estou no ultimo semestre do curso.</p>
+                        <p>Trabalho como desenvolvedor web
+fullstack. Tenho experiência no desenvolvimento de sistemas
+em projetos acadêmicos e profissionais, utilizando ferramentas
+como HTML, CSS, JavaScript, Bootstrap, React.js, Vue.js,
+Firebase, Java, Spring Boot, Docker, Vuetify, Git e MySQL.
+Estou sempre em busca de novas oportunidades para aprender
+e aprimorar minhas habilidades na área de desenvolvimento.
+                        </p>
+                        <p>
+                            Como desenvolvedor de software, fui da equipe responsável pela criação e
+manutenção de um sistema web para provedores de internet. Responsável
+pela implementação do front-end, aplicação do novo design system e
+melhorias para a plataforma, utilizando React e consumindo dados de APIs
+externas e internas.
+                        </p>
 
                 </div>
 

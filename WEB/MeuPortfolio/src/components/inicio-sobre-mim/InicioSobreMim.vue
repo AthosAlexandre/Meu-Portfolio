@@ -6,7 +6,7 @@
             <p class="font-weight-regular sobre-a-imagem">Sou um desenvolvedor Front-End e programador Java, que gosta de aprender novas tecnologias e de criar coisas novas.</p>
 
             <div class="pt-6 botao-dowload">
-                    <v-btn href="https://drive.google.com/uc?export=download&id=1cjnoUcVeWeWEoH_QahNLEsDlRgxxUfoN" class="bg-red-accent-4" prepend-icon="mdi-file-download">BAIXAR CURRICULO</v-btn>
+                    <v-btn href="https://drive.google.com/file/d/1m-hbtI0rrPvC3oXDfJnYXTzmUOAEOIbq/view?usp=sharing" class="bg-red-accent-4" prepend-icon="mdi-file-download">BAIXAR CURRICULO</v-btn>
             </div>
             
         </section>
